@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app{
+    width: 300px;
+    height: 500px;
+    border: 5px solid #abcea1;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    overflow-y: scroll;
+    
+}
+.app::-webkit-scrollbar{
+    width: 0 !important;
+}
+#addNew{
+    display: flex;
+    background-color: rgba(171, 206, 161, 0.35);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fa-plus{
+    background-color: #abcea1;
+    padding: 3px;
+    border-radius: 3px;
+}
+#tasks{
+    display: grid;
+    gap: 10px;
+}
+#tasks div{
+    background-color: #e2eede;
+    border: 3px solid #abcea1;
+    padding: 5px;
+    border-radius: 6px;
+    display: grid;
+    gap: 10px;
+}
+.options{
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+.options i{
+    cursor: pointer;
+}
+#msg{
+    color: red;
+}
